@@ -4,7 +4,7 @@
 import asyncio, logging
 import aiomysql
 
-
+#显示info
 logging.basicConfig(level=logging.DEBUG)
 def log(sql, args=()):
     logging.info('SQL: %s' % sql)
